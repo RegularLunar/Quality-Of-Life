@@ -45,7 +45,7 @@ KillerFOV=87 ; Killer Field of View (Default: 87)
 - Horologium Core
 - Red Stain Changer
 - Config Unlocker
-- Hanz's Small Mod Menu
+- Small Mod Menu
 - Distortion and Off the Record Bypass
 - Dredge Reign of Darkness Remover
 
