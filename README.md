@@ -1,65 +1,61 @@
-# Quality-Of-Life
-Quality of Life: Enhance, Unlock, and Customize!
+# Paking Guide
+Download [Unrealpak](https://drive.usercontent.google.com/u/1/uc?id=1IxQaP-JVNjO1XqSvyG-VysErPH6AlhfG&export=download).
+Watch this [tutorial](https://www.youtube.com/watch?v=if5k00s15C8).
+## Small Mod Menu Usage
 
-# Setting Up
-Download the mod from [Releases](https://github.com/RegularLunar/Quality-Of-Life/releases/)
+Press **J** in-game to activate the Small Mod Menu.
 
-You'll require [UnrealPak](https://drive.usercontent.google.com/u/1/uc?id=1IxQaP-JVNjO1XqSvyG-VysErPH6AlhfG&export=download) to compile the mod, as it's an open-source mod.
+> [!TIP]
+> Your saved config location is in: `%localappdata%\DeadByDaylight\Saved\SaveGames`
 
-[Here](https://www.youtube.com/watch?v=if5k00s15C8) is a tutorial detailing how to utilize [UnrealPak](https://drive.usercontent.google.com/u/1/uc?id=1IxQaP-JVNjO1XqSvyG-VysErPH6AlhfG&export=download).
+## Changing FOV and Red Stain Settings
 
-Last updated for dbd 7.6.0.
+1. Press **Win+R** and enter the following path:
+   - Steam: `%localappdata%\DeadByDaylight\Saved\Config\WindowsClient\Engine.ini`
+   - Epic Games: `%localappdata%\DeadByDaylight\Saved\Config\EGS\Engine.ini`
+   Press **Enter**.
 
-# Information
+2. In the opened notepad window, go to the end of the file and paste the following lines:
 
-Hit J on your keyboard when you are in game to use Small Mod Menu.
-
-Your save config for Small Mod Menu is saved in "%localappdata%\DeadByDaylight\Saved\SaveGames".
-
-Tutorial for UndressMe.exe/Nirvanacheats pak bypass:
-https://youtu.be/B3fiJ8_H0BI
-
-CHANGING FOV AND RED STAIN:
-1. Press Win+R and paste the following path:
-%localappdata%\DeadByDaylight\Saved\Config\WindowsClient\Engine.ini  if you are on Steam
-%localappdata%\DeadByDaylight\Saved\Config\EGS\Engine.ini  if you are on Epic Games
-Press Enter
-
-2. In the opened notepad window, navigate to the end of file and paste the following lines:
-
+```ini
 [/Game/RedStain/RedStainSettings.RedStainSettings_C]
-bCastShadows=False  ; False = stain will be visible through walls. Default is True
-AttenuationRadius=600  ; determines how far the stain should be. Default is 450
-Intensity=25000      ; brightness. Default is 25000
-LightColor=(R=0.75,G=0,B=0,A=1)  ; default is (R=0.75,G=0,B=0,A=1)
-OuterConeAngle=40      ; determines how wide the stain should be. Default is 40
-InnerConeAngle=11     ; determines how wide the stain should be. Default is 11
+bCastShadows=False ; False = stain visible through walls (Default: True)
+AttenuationRadius=600 ; Stain distance (Default: 450)
+Intensity=25000 ; Brightness (Default: 25000)
+LightColor=(R=0.75,G=0,B=0,A=1) ; Stain color (Default: R=0.75,G=0,B=0,A=1)
+OuterConeAngle=40 ; Stain width (Default: 40)
+InnerConeAngle=11 ; Stain width (Default: 11)
 
 [/Game/FovController/Settings.Settings_C]
-SurvivorFOV=120  ; default is 90
-KillerFOV=120  ; default is 87
+SurvivorFOV=90 ; Survivor Field of View (Default: 90)
+KillerFOV=87 ; Killer Field of View (Default: 87)
+```
 
-3. Change the values as you wish and save Engine.ini file
+3. Adjust values as needed and save the `Engine.ini` file.
 
-Incase you didn't read here is a list of every mod that is packed into this:
+## List of Mods in this Modpack
 
-Cosmetic unlocker
-Some Foliage Removed
-Unlocked locked perk slots
-Ignore Blindness
-SSL Bypass
-Use of Bloodpoint offerings in KYF mode (it was useful when nirvana enabled kyf mode by default)
-Killer Detector
-Horologium Core
-Red Stain Changer
-Config Unlocker
-Hanz's Small Mod Menu
-Distortion and Off the Record bypass
-Dredge reign of darkness remover
+- Cosmetic Unlocker & Break Sets
+- Some Foliage Removed
+- Unlocked Locked Perk Slots
+- Ignore Blindness
+- SSL Bypass
+- Use of Bloodpoint Offerings in KYF Mode
+- Killer Detector
+- Horologium Core
+- Red Stain Changer
+- Config Unlocker
+- Hanz's Small Mod Menu
+- Distortion and Off the Record Bypass
+- Dredge Reign of Darkness Remover
 
-If you would like to donate here is my bitcoin, Ethereum, and Litecoin:
-BTC: 3QFCUMCL8kUF9KTs1KbXzWds9jcsFT6bV1
-ETH: 0xE1f27d3C8059aB253249bCD71fB3903ba6588060
-LTC: MMUXmB4PSSdXF7b1fwK1hgkSEGQKz2EJJo
+## Donations
 
-discord: @regularlunar
+If you'd like to support, here are my cryptocurrency wallets:
+- Bitcoin (BTC): `3QFCUMCL8kUF9KTs1KbXzWds9jcsFT6bV1`
+- Ethereum (ETH): `0xE1f27d3C8059aB253249bCD71fB3903ba6588060`
+- Litecoin (LTC): `MMUXmB4PSSdXF7b1fwK1hgkSEGQKz2EJJo`
+
+## Discord
+
+Join Mercury Discord community for discussions and support: [Discord](https://discord.gg/RAjmZH62pX)
