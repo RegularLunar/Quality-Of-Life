@@ -42,6 +42,7 @@ KillerFOV=120  ; default is 87
 3. Change the values as you wish and save Engine.ini file
 
 Incase you didn't read here is a list of every mod that is packed into this:
+
 Cosmetic unlocker
 Some Foliage Removed
 Unlocked locked perk slots
