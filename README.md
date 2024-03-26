@@ -48,6 +48,7 @@ KillerFOV=87 ; Killer Field of View (Default: 87)
 - Small Mod Menu
 - Distortion and Off the Record Bypass
 - Dredge Reign of Darkness Remover
+- Exclusive cosmetics as custom slots
 
 ## Donations
 
