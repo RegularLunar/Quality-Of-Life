@@ -56,11 +56,8 @@ KillerFOV=87 ; Killer Field of View (Default: 87)
 
 ## Donations
 
-If you'd like to support, here are my cryptocurrency wallets:
-- Bitcoin (BTC): `3QFCUMCL8kUF9KTs1KbXzWds9jcsFT6bV1`
-- Ethereum (ETH): `0xE1f27d3C8059aB253249bCD71fB3903ba6588060`
-- Litecoin (LTC): `MMUXmB4PSSdXF7b1fwK1hgkSEGQKz2EJJo`
+<a href="https://www.buymeacoffee.com/RegularLunar"><img src="https://img.buymeacoffee.com/button-api/?text=You can support me here!&emoji=&slug=RegularLunar&button_colour=804dff&font_colour=ffffff&font_family=Lato&outline_colour=ffffff&coffee_colour=FFDD00" height="40" width="250" /></a>
 
 ## Discord
 
-Join Mercury Discord community for discussions and support: [Discord](https://discord.gg/RAjmZH62pX)
+Join my Discord community for discussions: [Discord](https://discord.gg/mFAxKpT457)
