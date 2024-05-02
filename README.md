@@ -1,4 +1,4 @@
-# No longer updating due to dbb going into ue5
+# No longer updating. Support has ended.
 
 # Paking Guide
 Download [Unrealpak](https://drive.usercontent.google.com/u/1/uc?id=1IxQaP-JVNjO1XqSvyG-VysErPH6AlhfG&export=download).
